@@ -56,11 +56,19 @@
 
     #nav2 {
         top: 135px;
-        width: 131px;
+        width: 150px;
     }
 
     .as {
         background-color: #EBECF0;
+    }
+
+    form{
+        width: 300px ;
+    }
+
+    .a_login{
+        font-size: 14px;
     }
 
     /* menu hamburger */
@@ -89,6 +97,7 @@
     .div_sobre,
     .div_inscrevase {
         width: 400px;
+        height: 430px;
     }
 
     .h1_sobre{
@@ -148,6 +157,11 @@
     .h1_footer{
         font-size: 1.5em;
         margin-top: 20px;
+    }
+
+    .termos{
+        margin-top: 25px;
+        font-size: 14px;
     }
 
     /* login */
