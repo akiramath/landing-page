@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queriestyle.css">
+    <script defer src="js.js"></script>
+    <title>Tokyomura</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navs">
+            <a href="#inicio" class="as">inicio</a>
+            <a href="#categoria" class="as">categoria</a>
+        </nav>
+        <h1 class="h1_header">LIVRARIA</h1>
+        <nav class="navs" id="nav2">
+            <a href="#sobre" class="as">sobre</a>
+            <a class="as" onclick="conta()">Login</a>
+        </nav>
+        <span class="material-symbols-outlined" id="ham" onclick="menu()">menu</span>
+    </header>
+
+    <!-- secção do login -->
+    <section id="login">
+        <form>
+            <h1 class="h1_login">Login</h1>
+            <label for="email" class="label">Email:</label>
+            <input type="text" id="email" placeholder="Digite seu Email" class="inputs" required>
+            <label for="senha" class="label">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" class="inputs" required>
+            <input type="submit" value="Entrar" class="btn_login">
+            <div>
+                <a href="#" class="a_login">Esqueceu a senha?</a>
+                <a href="#" class="a_login">Crie uma conta!</a>
+            </div>
+        </form>
+    </section>
+
+    <main id="main">
+
+        <!-- Secção do Inicio do site-->
+        <section class="inicio" id="inicio">
+            <div class="div_inicio">
+                <h1 id="h1_inicio">LIVRARIA<br>TOKYOMURA</h1>
+                <a href="#categoria"><button class="btn_inicio">CONFIRA</button></a>
+            </div>
+        </section>
+
+        <!-- secção Categoria -->
+        <section class="cate" id="categoria">
+            <div class="div_cate">
+                <h1 class="h1_cate">CATEGORIA</h1>
+                <div class="div_imgs">
+                    <div>
+                        <div class="div_imgs_cates"></div>
+                        <button class="btn_cate">Romance</button>
+                    </div>
+                    <div>
+                        <div class="div_imgs_cates"></div>
+                        <button class="btn_cate">Terror</button>
+                    </div>
+                    <div id="div_img_c3">
+                        <div class="div_imgs_cates"></div>
+                        <button class="btn_cate">Infantil</button>
+                    </div>
+                </div>
+                <p class="p_cate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aspernatur
+                    veritatis odit ad explicabo pariatur eius nesciunt cum dolores non cumque, minima commodi dolore
+                    quod nisi nemo eaque repudiandae? Minima?</p>
+            </div>
+        </section>
+
+        <!-- secção Sobre -->
+        <section class="sobre" id="sobre">
+            <div class="div_sobre">
+                <h1 class="h1_sobre">Sobre a Tokyomura</h1>
+                <img src="imgs/stars.png" alt="5 estrelas" class="stars">
+                <p class="p_sobre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam in placeat explicabo
+                    laborum! Accusamus quasi recusandae consequuntur, sint impedit, atque nisi nihil possimus laudantium
+                    error consequatur vitae culpa aperiam suscipit?</p>
+                <p class="p_nome">- Matheus Mansano Rodrigues</p>
+            </div>
+        </section>
+
+        <!-- secção coleção -->
+        <section class="cole">
+            <div class="div_img1">
+                <div class="img_cole1"></div>
+                <div class="img_cole2"></div>
+            </div>
+            <div class="div_img2">
+                <div class="img_cole3"></div>
+            </div>
+            <div class="div_textCole">
+                <h1 class="h1_cole">Nova <br>Coleção</h1>
+                <p class="p_cole">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sapiente sit aliquam
+                    ratione doloremque iure in, quaerat optio, tenetur eos laborum facere ex culpa modi eaque error
+                    saepe inventore. In! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe ea facilis
+                    porro minima et fuga, eos autem animi! Quis aperiam accusamus totam dolore, fugit dolor doloribus
+                    porro aspernatur sint non!</p>
+                <button class="btn_cole" onclick="conta()">Compre Agora</button>
+            </div>
+        </section>
+
+        <!-- secção inscreva-se -->
+        <section class="inscrevase">
+            <div class="div_inscrevase" id="ins">
+                <p class="p_inscrevase">Inscreva-se em nossa livraria para obter 10% de desconto na sua primeira compra!
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1 class="h1_footer">Tokyomura</h1>
+        <div class="traco"></div>
+        <a href="#" class="termos">Termos & Condições</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+@media screen and (min-width: 930px) and (max-width: 1260px) {
+
+    /* secção categoria */
+    .div_imgs {
+        position: relative;
+    }
+
+    .btn_cate {
+        margin-bottom: 400px;
+    }
+
+    #div_img_c3 {
+        position: absolute;
+        top: 400px;
+    }
+
+    /* secção colelogo */
+    .div_img1 {
+        display: none;
+    }
+
+    .div_img2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_cole3 {
+        margin: 160px 20px;
+    }
+
+    .p_inscrevase {
+        font-size: 2em;
+    }
+
+
+}
+
+@media screen and (max-width: 930px) {
+
+    header {
+        position: fixed;
+    }
+
+    .h1_header {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 40px;
+        right: 20px;
+        gap: 10px;
+    }
+
+    #nav2 {
+        top: 135px;
+        width: 131px;
+    }
+
+    .as {
+        background-color: #EBECF0;
+    }
+
+    /* menu hamburger */
+    #ham {
+        position: absolute;
+        top: 15px;
+        right: 60px;
+        cursor: pointer;
+    }
+
+    /* secção categorias */
+
+    .div_imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p_cate {
+        width: 400px;
+        margin: 70px auto;
+    }
+
+    /* secção sobre */
+
+    .div_sobre,
+    .div_inscrevase {
+        width: 400px;
+    }
+
+    .h1_sobre{
+        font-size: 1.5em;
+    }
+
+    .p_sobre{
+        width: 300px;
+    }
+
+    .p_nome{
+        margin-top: 50px;
+    }
+
+    /* secção coleção */
+    .cole{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_img2, .img_cole2 {
+        display: none;
+    }
+
+    .div_img1{
+        width: 300px;
+    }
+
+    .img_cole1{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .div_textCole{
+        width: 300px;
+    }
+
+    .h1_cole {
+        font-size: 2em;
+        margin-top: 50px;
+    }
+
+    .p_cole {
+        margin: 50px auto;
+        width: 300px;
+    }
+
+    /* secção inscrever-se */
+    
+    .p_inscrevase {
+        width: 300px;
+        font-size: 2em;
+    }
+
+    /* footer */
+    .h1_footer{
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+
+    /* login */
+    .login{
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+}
